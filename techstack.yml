@@ -1,0 +1,76 @@
+repo_name: mollypi/blue-book
+report_id: 3f0e5d7bf503c70f20b66f9760766807
+repo_type: Public
+timestamp: '2023-11-15T05:30:55+00:00'
+requested_by: actions-user
+provider: github
+branch: main
+detected_tools_count: 6
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: pyproject.toml
+  last_updated_by: Lyz
+  last_updated_on: 2022-03-10 21:25:20.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/gh-pages.yml"
+  last_updated_by: Lyz
+  last_updated_on: 2022-12-15 08:17:17.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: pyproject.toml
+  last_updated_by: Lyz
+  last_updated_on: 2022-03-10 21:25:20.000000000 Z
+- name: gitdb2
+  description: Git Object Database
+  package_url: https://pypi.org/gitdb2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20744/default_c90b3e514872112e4562f3131a3c6b68b0d05009.png
+  detection_source: pyproject.toml
+  last_updated_by: Lyz
+  last_updated_on: 2022-03-16 09:23:00.000000000 Z
+- name: pymdown-extensions
+  description: Extension pack for Python Markdown
+  package_url: https://pypi.org/pymdown-extensions
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20736/default_d7016f3b81d6dea370b4e255c96d7e3aa7e34373.png
+  detection_source: pyproject.toml
+  last_updated_by: Lyz
+  last_updated_on: 2022-03-16 09:23:00.000000000 Z
